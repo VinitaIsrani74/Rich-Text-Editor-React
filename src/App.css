@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 2rem;
+  width: 100%;
+  height: 100vh;
+}
+.heading {
+  display: flex;
+  text-align: center;
+  color: bisque;
+  font-size: 4rem;
+  justify-content: center;
+  background-color: rgb(236, 70, 45);
+  width: 100%;
+
+  height: fit-content;
+
+  padding: 1rem;
+}
+.content {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: fit-content;
+}
+
+.result {
+  background-color: rgba(129, 130, 130, 0.251);
+  min-height: 40%;
+  width: 70%;
+}

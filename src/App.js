@@ -11,6 +11,7 @@ function App() {
       <div className='content'>
         <div>
         <RichTextEditor setValue={setValue} /></div></div>
+        
       <div className="result">{value}</div>
     </div>
   );

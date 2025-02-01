@@ -35,6 +35,8 @@
 
 .result {
   background-color: rgba(129, 130, 130, 0.251);
+  padding: 1rem;
+  border-radius: 1rem;
   min-height: 40%;
   width: 70%;
 }
